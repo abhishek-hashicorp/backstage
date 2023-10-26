@@ -1,5 +1,15 @@
 # @backstage/plugin-bazaar
 
+## 0.2.18-next.1
+
+### Patch Changes
+
+- c5aad900e3: Adding descending sort in a bazaar plugin
+- b3acba9091: Added alert popup in the bazaar plugin
+- 1a40159acb: Removed unnecessary dependency on `@backstage/cli`.
+- Updated dependencies
+  - @backstage/plugin-catalog@1.15.0-next.1
+
 ## 0.2.18-next.0
 
 ### Patch Changes

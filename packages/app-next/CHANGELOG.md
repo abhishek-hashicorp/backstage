@@ -1,5 +1,29 @@
 # example-app-next
 
+## 0.0.3-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-home@0.5.10-next.1
+  - @backstage/plugin-search-react@1.7.2-next.1
+  - @backstage/plugin-kubernetes@0.11.1-next.1
+  - @backstage/cli@0.24.0-next.0
+  - @backstage/plugin-newrelic@0.3.42-next.0
+  - @backstage/plugin-adr@0.6.9-next.1
+  - @backstage/plugin-catalog@1.15.0-next.1
+  - @backstage/plugin-explore@0.4.12-next.1
+  - @backstage/plugin-playlist@0.1.18-next.1
+  - @backstage/plugin-search@1.4.2-next.1
+  - @backstage/plugin-techdocs@1.8.1-next.1
+  - @backstage/plugin-api-docs@0.9.13-next.1
+  - @backstage/plugin-catalog-graph@0.2.38-next.0
+  - @backstage/plugin-org@0.6.16-next.0
+  - @backstage/plugin-scaffolder@1.16.0-next.0
+  - @backstage/plugin-scaffolder-react@1.6.0-next.0
+  - @backstage/plugin-user-settings@0.7.12-next.0
+  - @backstage/plugin-techdocs-module-addons-contrib@1.1.2-next.0
+
 ## 0.0.3-next.0
 
 ### Patch Changes

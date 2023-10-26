@@ -1,5 +1,11 @@
 # @backstage/plugin-search-react
 
+## 1.7.2-next.1
+
+### Patch Changes
+
+- a539643cba: Minor refactor of search bar analytics capture
+
 ## 1.7.2-next.0
 
 ### Patch Changes

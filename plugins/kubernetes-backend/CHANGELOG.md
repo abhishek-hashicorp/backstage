@@ -1,5 +1,15 @@
 # @backstage/plugin-kubernetes-backend
 
+## 0.13.1-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-node@1.5.0-next.1
+  - @backstage/backend-common@0.19.9-next.0
+  - @backstage/plugin-auth-node@0.4.1-next.0
+  - @backstage/plugin-permission-node@0.7.18-next.0
+
 ## 0.13.1-next.0
 
 ### Patch Changes

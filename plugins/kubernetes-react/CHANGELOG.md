@@ -1,5 +1,11 @@
 # @backstage/plugin-kubernetes-react
 
+## 0.1.1-next.1
+
+### Patch Changes
+
+- 0f4cad6da0: Internal refactor to avoid a null pointer problem
+
 ## 0.1.1-next.0
 
 ### Patch Changes

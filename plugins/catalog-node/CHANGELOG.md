@@ -1,5 +1,11 @@
 # @backstage/plugin-catalog-node
 
+## 1.5.0-next.1
+
+### Minor Changes
+
+- e5bf3749ad: Support adding location analyzers in new catalog analysis extension point and move `AnalyzeOptions` and `ScmLocationAnalyzer` types to `@backstage/plugin-catalog-node`
+
 ## 1.4.8-next.0
 
 ### Patch Changes

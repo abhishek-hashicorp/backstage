@@ -1,5 +1,17 @@
 # @backstage/backend-plugin-manager
 
+## 0.0.3-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog-backend@1.15.0-next.1
+  - @backstage/backend-common@0.19.9-next.0
+  - @backstage/backend-tasks@0.5.12-next.0
+  - @backstage/plugin-auth-node@0.4.1-next.0
+  - @backstage/plugin-events-backend@0.2.16-next.0
+  - @backstage/plugin-permission-node@0.7.18-next.0
+
 ## 0.0.3-next.0
 
 ### Patch Changes

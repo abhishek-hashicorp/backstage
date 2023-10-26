@@ -1,5 +1,12 @@
 # @backstage/plugin-adr
 
+## 0.6.9-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-search-react@1.7.2-next.1
+
 ## 0.6.9-next.0
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @backstage/plugin-techdocs-node
 
+## 1.10.0-next.1
+
+### Minor Changes
+
+- 67cff7b06f: Expose an extension point to set a custom build strategy. Also move `DocsBuildStrategy` type to `@backstage/plugin-techdocs-node` and deprecate `ShouldBuildParameters` type.
+
+### Patch Changes
+
+- e61a975f61: Switch to `@smithy/node-http-handler` instead of the `@aws-sdk/node-http-handler`
+- Updated dependencies
+  - @backstage/backend-common@0.19.9-next.0
+
 ## 1.9.1-next.0
 
 ### Patch Changes

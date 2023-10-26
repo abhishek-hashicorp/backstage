@@ -1,5 +1,11 @@
 # @backstage/plugin-home
 
+## 0.5.10-next.1
+
+### Patch Changes
+
+- d86b2acec4: Fix bug where `retrieveAll` method wasn't fetching visits
+
 ## 0.5.10-next.0
 
 ### Patch Changes

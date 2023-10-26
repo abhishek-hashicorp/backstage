@@ -1,5 +1,18 @@
 # @backstage/plugin-techdocs-backend
 
+## 1.9.0-next.1
+
+### Minor Changes
+
+- 67cff7b06f: Expose an extension point to set a custom build strategy. Also move `DocsBuildStrategy` type to `@backstage/plugin-techdocs-node` and deprecate `ShouldBuildParameters` type.
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-techdocs-node@1.10.0-next.1
+  - @backstage/plugin-search-backend-module-techdocs@0.1.11-next.1
+  - @backstage/backend-common@0.19.9-next.0
+
 ## 1.8.1-next.0
 
 ### Patch Changes

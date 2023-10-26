@@ -1,5 +1,12 @@
 # @backstage/plugin-api-docs
 
+## 0.9.13-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-catalog@1.15.0-next.1
+
 ## 0.9.13-next.0
 
 ### Patch Changes
