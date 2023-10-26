@@ -88,12 +88,24 @@ import { RoutingProvider } from '../routing/RoutingProvider';
 import { resolveRouteBindings } from '../routing/resolveRouteBindings';
 import { collectRouteIds } from '../routing/collectRouteIds';
 import { AppNode, createAppGraph } from '../graph';
+import {
+  CoreComponents,
+  DefaultProgressComponent,
+  DefaultErrorBoundaryComponent,
+  DefaultBootErrorPageComponent,
+  DefaultNotFoundErrorPageComponent,
+} from '../extensions/CoreComponents';
 
 const builtinExtensions = [
   Core,
   CoreRoutes,
   CoreNav,
   CoreLayout,
+  CoreComponents,
+  DefaultProgressComponent,
+  DefaultErrorBoundaryComponent,
+  DefaultBootErrorPageComponent,
+  DefaultNotFoundErrorPageComponent,
   LightTheme,
   DarkTheme,
 ];
@@ -353,7 +365,13 @@ function createLegacyAppContext(plugins: BackstagePlugin[]): AppContext {
     },
 
     getComponents(): AppComponents {
-      return defaultComponents;
+      return {
+        ...defaultComponents,
+        Progress: () => null,
+        BootErrorPage: () => null,
+        NotFoundErrorPage: () => null,
+        ErrorBoundaryFallback: () => null,
+      };
     },
   };
 }
